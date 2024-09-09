@@ -2,7 +2,12 @@
     .name = "casechk",
     .version = "0.1.0",
     .minimum_zig_version = "0.13.0",
-    .dependencies = .{},
+    .dependencies = .{
+        .yazap = .{
+            .url = "git+https://github.com/prajwalch/yazap#c41e31b2adb542a918119a47247df89270950dcf",
+            .hash = "12201083daa0a3468d4b80c04a471cc586ed4c4186b7b425283ee60832592a72034a",
+        },
+    },
     .paths = .{
         "build.zig",
         "build.zig.zon",
